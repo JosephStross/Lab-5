@@ -35,8 +35,6 @@ int binary_search(std::vector<std::string>& container, std::string element) {
 int main() {
     std::vector<std::string> dataset = getStringData();
 
-    std::cout << "New Branch Code" << std::endl;
-
     long long start = systemTimeNanoseconds();
     int lin_not_here = linear_search(dataset, "not_here");
     long long end = systemTimeNanoseconds();
